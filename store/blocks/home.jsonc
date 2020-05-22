@@ -23,11 +23,6 @@
     }
   },
   
-  "rich-text#deletar": {
-    "props": {
-      "text": "I'll be deleted soon"
-    }
-  },
 
   "flex-layout.col":{
     "children": [
