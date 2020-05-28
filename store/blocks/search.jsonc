@@ -11,19 +11,14 @@
   },
   "search-result-layout.desktop": {
     "children": [
-      "breadcrumb",
-      "flex-layout.row#main",
-      "product-images",
-      "product-name",
-      "product-identifier.product", 
-      "product-price",
-      "flex-layout.row#qty-sku", 
-      "shipping-simulator",
-      "sku-selector",
-      "product-quantity",
-      "buy-button",
-      "stack-layout",
-      "shelf.relatedProducts"
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "order-vy.v2",
+      "search-fetch-previous", 
+      "search-content",
+      "filter-navigator.v3", 
+      "search-fetch-more"
     ]
   }
  }
