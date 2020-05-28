@@ -29,7 +29,8 @@
 
   "flex-layout.col#left": {
     "children": [
-      "stack-layout#brand"
+      "stack-layout#brand",
+      "shelf.relatedProducts"
     ]
   },
 
@@ -83,7 +84,7 @@
     }
   },
 
-  "product-summary.shelf#demo1": {
+  "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
@@ -94,8 +95,9 @@
     ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf#demo1"],
+    "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"]
   }
 
+}
 }
