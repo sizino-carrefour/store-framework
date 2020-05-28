@@ -55,7 +55,7 @@
       "product-quantity"
     ]
   },
-
+  
   "product-price": {
     "props":{
       "showSavings": true,
