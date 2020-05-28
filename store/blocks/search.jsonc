@@ -1,5 +1,29 @@
 {
   "store.search": {
-    "blocks": []
+     "blocks": ["search-result-layout"]
+  },
+  "search-result-layout": {
+     "blocks": [
+        "search-result-layout.desktop",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+     ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#main",
+      "product-images",
+      "product-name",
+      "product-identifier.product", 
+      "product-price",
+      "flex-layout.row#qty-sku", 
+      "shipping-simulator",
+      "sku-selector",
+      "product-quantity",
+      "buy-button",
+      "stack-layout",
+      "shelf.relatedProducts"
+    ]
   }
-}
+ }
