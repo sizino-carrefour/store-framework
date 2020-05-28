@@ -12,8 +12,8 @@
       "sku-selector",
       "product-quantity",
       "buy-button",
-      "shelf.relatedProducts",
-      "stack-layout"
+      "stack-layout",
+      "shelf.relatedProducts"
     ]
   },
 
