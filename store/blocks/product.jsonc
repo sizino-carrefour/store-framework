@@ -1,13 +1,22 @@
 {
   "store.product": {
     "children": [
-      "product-images", 
-      "product-price", 
+      "breadcrumb",
+      "flex-layout.row#main",
+      "product-images",
       "product-name",
-      "buy-button",
-      "flex-layout.row#main"
+      "product-identifier.product", 
+      "product-price",
+      "flex-layout.row#qty-sku", 
+      "shipping-simulator",
+      "sku-selector",
+      "product-quantity",
+      "buy-button"
     ]
   },
+
+  
+
 
   "flex-layout.row#main": { 
     "props": { 
@@ -34,6 +43,13 @@
       "product-name",
       "product-price",
       "buy-button"
+    ]
+  },
+
+  "flex-layout.row#qty-sku": {
+    "children": [
+      "sku-selector",
+      "product-quantity"
     ]
   },
 
